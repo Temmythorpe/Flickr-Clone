@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+   width:100%;
+}
+body{
+    background-image: url(./images/image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 60%;
+   height: 100%;
+   width:100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.head-cases{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.head-cases>h2{
+    color: white;
+}
+.search-input{
+    flex: 1;
+    margin: 0px 120px;
+    padding: 10px;
+    border: none;
+}
+
+.sign-up> p{
+    color: white;
+}
+.sign-up{
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-up button{
+    margin-left: 15px;
+}
+.center-alignment{
+   justify-content: center;
+}
+
+.body-content{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   /* align-items: center;*/
+    color: white;
+    text-align: center;
+}
+.center-text>h2{
+color: white;
+font-size: 48px;
+margin-top: 140px;
+}
+
+.center-text>p{
+    font-size: 22px;
+    margin-top: 25px;
+    max-width: 500px;
+}
+
+.center-text>button{
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 45px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.center-text>button:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sub-context{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.lower-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(209, 202, 202, 0.5);
+    background-color: black;
+    padding: 10px;
+}
+.lower-text>label:hover{
+    color: white;
+    cursor: pointer;
+}
+#language {
+    outline: none;
+    border: none;
+}
