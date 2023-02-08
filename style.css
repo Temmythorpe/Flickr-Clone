@@ -1,13 +1,20 @@
+@font-face{
+    src: url(./Fonts/ProximaNova.otf);
+    font-family: "Proxima Nova";
+}
+
 *{
     padding: 0;
     margin: 0;
+    font-family: "Proxima Nova"; 
 }
+
 html{
     height: 100%;
    width:100%;
 }
 body{
-    background-image: url(./images/image\ 1.jpg);
+    background-image: url(./images/photos\ 7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60% 60%;
@@ -26,8 +33,20 @@ body{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.head-cases>h2{
-    color: white;
+.logo-container{
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-container .icon{
+    width: 20px;
+    height: 30px;
+}
+
+.logo-container .logo{
+    width:60px;
+    height:30px;
+    /* fill: white; */
 }
 .search-input{
     flex: 1;
@@ -36,16 +55,30 @@ body{
     border: none;
 }
 
+
 .sign-up> p{
     color: white;
 }
 .sign-up{
     display: flex;
     flex-direction: row;
+   align-items: center;
+   cursor: pointer;
 }
 
-.sign-up button{
+.sign-up>button{
     margin-left: 15px;
+    padding: 8px 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    font: bold;
+    cursor: pointer;
+}
+
+.sign-up>button:hover{
+    color: rgba(209, 202, 202, 0.5);
 }
 .center-alignment{
    justify-content: center;
@@ -70,6 +103,7 @@ margin-top: 140px;
     font-size: 22px;
     margin-top: 25px;
     max-width: 500px;
+    font-family: Arial;
 }
 
 .center-text>button{
@@ -107,7 +141,15 @@ margin-top: 140px;
     color: white;
     cursor: pointer;
 }
+.lower-text>i:hover{
+    color: white;
+    cursor: pointer;
+}
 #language {
     outline: none;
     border: none;
+}
+
+.footer-icons{
+    scale: 1.3;
 }
