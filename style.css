@@ -28,7 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 24px 24px;
+    padding: 15px 24px;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -146,8 +146,19 @@ margin-top: 140px;
     margin-bottom: 80px;
     font-weight: bold;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 80px;
 }
+
+
+.sub-context>h6{
+    margin-top: 8px;
+}
+
+.sub-context:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .lower-text{
     display: flex;
     flex-direction: row;
@@ -174,6 +185,9 @@ margin-top: 140px;
 .footer-icons{
     scale: 1.5;
     margin-right: 20px;
+}
+.footer-icons:hover{
+    color: #ffffff;
 }
 
 @media screen and (max-width: 600px) {
